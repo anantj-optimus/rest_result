@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="Rest API" skipped="0" tests="2" time="2.590148">
+<testcase classname="Rest API" name="GET Method (outline example : | http://qa-rh6-64-2/foundation-webapp/api/hosts/localhost | &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;host hostName=&quot;localhost&quot; description=&quot;localhost&quot; monitorStatus=&quot;UP&quot; appType=&quot;NAGIOS&quot; deviceName=&quot;127.0.0.1&quot; lastCheckTime=&quot;2013-06-21T01:41:23-07:00&quot; bubbleUpStatus=&quot;UP&quot; serviceAvailability=&quot;9.52&quot; acknowledged=&quot;false&quot;/&gt; |)" time="1.280073">
+  <system-out/>
+  <system-err/>
+</testcase>
+<testcase classname="Rest API" name="GET Method (outline example : | http://qa-rh6-64-2//foundation-webapp/api/events/12 | &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;events&gt;&lt;event id=&quot;12&quot; device=&quot;127.0.0.1&quot; host=&quot;localhost&quot; service=&quot;local_mem_nagios&quot; operationStatus=&quot;OPEN&quot; monitorStatus=&quot;OK&quot; severity=&quot;OK&quot; applicationSeverity=&quot;OK&quot; component=&quot;OK&quot; priority=&quot;Lowest Priority in a scale from 1 -10&quot; typeRule=&quot;UNDEFINED&quot; textMessage=&quot;OK - total %MEM for process nagios : 0.0&quot; firstInsertDate=&quot;2013-06-17T05:49:48-07:00&quot; lastInsertDate=&quot;2013-06-17T05:49:48-07:00&quot; reportDate=&quot;2013-06-17T05:50:10.125-07:00&quot; msgCount=&quot;1&quot; appType=&quot;NAGIOS&quot;&gt;&lt;properties&gt;&lt;property name=&quot;ErrorType&quot; value=&quot;SERVICE ALERT&quot;/&gt;&lt;property name=&quot;SubComponent&quot; value=&quot;localhost:local_mem_nagios&quot;/&gt;&lt;/properties&gt;&lt;/event&gt;&lt;/events&gt; |)" time="1.310075">
+  <system-out/>
+  <system-err/>
+</testcase>
+  <system-out>
+    <![CDATA["It worked status 200!"
+"It worked status 200!"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testsuite>
